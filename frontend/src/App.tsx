@@ -1,33 +1,40 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
+import h2Logo from './assets/11459762.png';
+import swaggerLogo from './assets/swagger-icon-2048x2048-563qbzey.png';
+import githubLogo from "./assets/25231.png";
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <header>
+        <div>
+            <h1>Desafio DIO - 2024</h1>
+            <p>Spring Boot Bootcamp</p>
+        </div>
+      </header>
+
+      <main>
+        <div className="navegacao">
+            <ul>
+                <li>
+                    <span><img src={h2Logo}/></span>
+                    <span><a href="http://localhost:8080/h2-console">Acessar o H2 Database</a></span>
+                </li>
+                <li>
+                    <span><img src={swaggerLogo}/></span>
+                    <span><a href="http://localhost:8080/swagger-ui/index.html">Acessar a documentação Swagger</a></span>
+                </li>
+                <li>
+                    <span><img src={githubLogo}/></span>
+                    <span><a href="http://localhost:8080/https://github.com/NattanSouza404">Meu Github</a></span>
+                </li>
+            </ul>
+        </div>
+      </main>
+
+      <footer/>
     </>
   )
 }
