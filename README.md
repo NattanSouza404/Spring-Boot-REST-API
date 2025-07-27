@@ -3,6 +3,8 @@
 
 Esse projeto foi inicialmente criado para o bootcamp "Claro - Java com Spring Boot" da DIO (Digital Innovation One).
 
+<img src="bootcamp.webp" height="150">
+
 ## Tecnologias
 
 Algumas tecnologias usadas:
