@@ -1,12 +1,16 @@
 # DESAFIO DIO - SPRING BOOT
 ## Criação de uma Rest API
 
-Nesse projeto usei:
-- Swagger, que documenta os endpoints;
-- H2 Database, para persistir os dados na memória da aplicação;
-- Um site index.html, com links para o Swagger e o H2 Database;
-- Fiz uso de Lombok;
-- Adicionei algumas outras operações para a entidade User;
+Esse projeto foi inicialmente criado para o bootcamp "Claro - Java com Spring Boot" da DIO (Digital Innovation One).
+
+## Tecnologias
+
+Algumas tecnologias usadas:
+- Spring Boot
+- React com Typescript
+- Documentação da API com Swagger
+- Uso do H2 Database, um banco em memória
+- Lombok
 
 ## Rodando o projeto
 
