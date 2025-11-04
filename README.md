@@ -14,7 +14,7 @@ Algumas tecnologias usadas:
 - Uso do H2 Database, um banco em memória
 - Lombok
 
-## Rodando o projeto
+## Executando o projeto
 
 Para iniciar o frontend, use:
 
@@ -23,6 +23,10 @@ cd frontend
 npm install
 npm run dev
 ```
+
+Para acessar o console do H2 Database, navegue para: ```http://localhost:8080/h2-console```.
+
+Para acessar a documentação da API com o Swagger, navegue para: ```http://localhost:8080/swagger-ui/index.html```.
 
 ## Frontend React
 
